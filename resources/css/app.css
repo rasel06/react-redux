@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    text-decoration: none;
+}
+
+nav {
+    list-style: none;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+nav > ul > li {
+    display: inline-block;
+    background-color: #e7e7e7;
+    margin-right: 0.5rem;
+}
+
+nav > ul > li > a {
+    color: rgb(26, 70, 100);
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: 1s;
+}
+
+nav > ul > li > a:hover {
+    color: #f7f7f7;
+    background-color: rgb(26, 70, 100);
+}
